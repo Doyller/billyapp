@@ -1,4 +1,4 @@
-/*const topNav = () => {
+const topNav = () => {
   return (
     <div className="topNav">
       <li>
@@ -18,4 +18,4 @@
   );
 };
 
-export default topNav*/
+export default topNav
