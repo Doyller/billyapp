@@ -25,47 +25,53 @@ function computers() {
       image: "images/m2 pro.jpeg",
     },
     {
-        brand: "Apple",
-        name: "M2 Mac Mini -> $799.99",
-        description:
-          "The M2 Mac Mini is the ultimate tool for cost-effective power, 8GB of unified memory, 256GB SSD, all with an 8 Core CPU and 10 Core GPU ",
-        image: "images/mac mini.jpeg",
-      },
+      brand: "Apple",
+      name: "M2 Mac Mini -> $799.99",
+      description:
+        "The M2 Mac Mini is the ultimate tool for cost-effective power, 8GB of unified memory, 256GB SSD, all with an 8 Core CPU and 10 Core GPU ",
+      image: "images/mac mini.jpeg",
+    },
     {
       brand: "Laptops",
       name: "Acer Swift X-> $1499.99",
-      description: "Powered by Intel Core i7-11390H and paired with an RTX 3050Ti, 16GB of RAM and a 512GB SSD, the Swift X is powerful and ultra-lightweight",
+      description:
+        "Powered by Intel Core i7-11390H and paired with an RTX 3050Ti, 16GB of RAM and a 512GB SSD, the Swift X is powerful and ultra-lightweight",
       image: "images/acer laptop.jpeg",
     },
     {
       brand: "Laptops",
       name: "Dell XPS 13 -> $999.99",
-      description: "Powered by Intel i5-1230U and the Iris Xe graphics, along with 8GB of RAM and 512GB SSD, this is both powerful and lightweight",
-      image: "",
+      description:
+        "Powered by Intel i5-1230U and the Iris Xe graphics, along with 8GB of RAM and 512GB SSD, this is both powerful and lightweight",
+      image: "images/Dell xps 13.jpeg",
     },
     {
-        brand: "Laptops",
-        name: "Dell XPS 13 -> $999.99",
-        description: "Powered by Intel i5-1230U and the Iris Xe graphics, along with 8GB of RAM and 512GB SSD, this is both powerful and lightweight",
-        image: "",
+      brand: "Laptops",
+      name: "Microsoft Studio Laptop 4 -> $1599.88",
+      description:
+        "The Microsoft studio laptop is a 14.4' touchscreen, with 16GB of RAM and a 256GB SSD powered by an i-511300H processor. Perfect for design and productivity",
+      image: "images/studio laptop.webp",
     },
     {
-        brand: "Desktops",
-        name: "Dell XPS 13 -> $999.99",
-        description: "Powered by Intel i5-1230U and the Iris Xe graphics, along with 8GB of RAM and 512GB SSD, this is both powerful and lightweight",
-        image: "",
+      brand: "Gaming",
+      name: "Alienware Aurora R9 -> $1649.99",
+      description:
+        "Powered by an Intel i7-9700 and an RTX 2070 super, with 16GB of RAm and a combined 1.256TB of storage, this can handle all the fun you can throw at it",
+      image: "images/alienware aurora r9.jpeg",
     },
     {
-        brand: "Desktops",
-        name: "Dell XPS 13 -> $999.99",
-        description: "Powered by Intel i5-1230U and the Iris Xe graphics, along with 8GB of RAM and 512GB SSD, this is both powerful and lightweight",
-        image: "",
+      brand: "Gaming",
+      name: "Steam Deck Hand Held PC-> 899.99",
+      description:
+        "Your PC, now in your hands. The steam deck provides 16GB of RAM, 512GB SSD and AMD APU based CPU and GPU.",
+      image: "images/steam deck.jpeg",
     },
     {
-        brand: "Desktops",
-        name: "Dell XPS 13 -> $999.99",
-        description: "Powered by Intel i5-1230U and the Iris Xe graphics, along with 8GB of RAM and 512GB SSD, this is both powerful and lightweight",
-        image: "",
+      brand: "Gaming",
+      name: "ROG Strix Scar 17 laptop -> $3999.99",
+      description:
+        "A Gaming beast. The Scar 17 is built with a Ryzen 9 7945HX, accompanied by an RTX 4080. With 32GB RAM and 1TB SSD, this is sure to be an unreal gaming machine.  ",
+      image: "images/rog strix scar.jpeg",
     },
   ];
 
@@ -84,7 +90,7 @@ function computers() {
               <div key={index}>
                 <h3>{product.name}</h3>
                 <img src={product.image} alt={product.name} />
-                <button onClick={toggleProductInfo}>More Info</button>         
+                <button onClick={toggleProductInfo}>More Info</button>
                 {showProductInfo && <p>{product.description}</p>}
               </div>
             ))}
