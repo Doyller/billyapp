@@ -8,10 +8,10 @@ const topNav = () => {
         <Link to="/">Top Deals</Link>
       </li>
       <li>
-        <Link to="/">Computers</Link>
+        <Link to="/">computers</Link>
       </li>
       <li>
-        <Link to="/">Cellphones</Link>
+        <Link to="/">phones</Link>
       </li>
 
     </div>
