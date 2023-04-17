@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 function TopDeals() {
-  const [showProductInfo, setShowProductInfo] = useState(false);
+  const [showProductInfo, setShowProductInfo] = useState(-1);
 
-  const toggleProductInfo = () => {
-    setShowProductInfo(!showProductInfo);
+  const toggleProductInfo = (index) => {
+    setShowProductInfo(showProductInfo === index ? -1 : index);
   };
 
   const products = [
@@ -67,8 +67,10 @@ function TopDeals() {
               <div key={index}>
                 <h3>{product.name}</h3>
                 <img src={product.image} alt={product.name} />
-                <button onClick={toggleProductInfo}>More Info</button>
-                {showProductInfo && <p>{product.description}</p>}
+                <button onClick={() => toggleProductInfo(index)}>
+                  More Info
+                </button>
+                {showProductInfo === index && <p>{product.description}</p>}
               </div>
             ))}
         </div>
@@ -76,4 +78,5 @@ function TopDeals() {
     </div>
   );
 }
+
 export default TopDeals;
