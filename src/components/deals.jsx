@@ -1,8 +1,7 @@
-import React from "react";
 import topNav from "./topnav";
 import React, { useState } from "react";
 
-function topDeals() {
+function TopDeals() {
   const [showProductInfo, setShowProductInfo] = useState(false);
 
   const toggleProductInfo = () => {
@@ -78,4 +77,4 @@ function topDeals() {
     </div>
   );
 }
-export default topDeals;
+export default TopDeals;

@@ -1,8 +1,7 @@
-import React from "react";
 import topNav from "./topnav";
 import React, { useState } from "react";
 
-function computers() {
+function Computers() {
   const [showProductInfo, setShowProductInfo] = useState(false);
 
   const toggleProductInfo = () => {
@@ -99,4 +98,4 @@ function computers() {
     </div>
   );
 }
-export default computers;
+export default Computers;
