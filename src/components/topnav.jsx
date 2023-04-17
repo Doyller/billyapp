@@ -5,13 +5,19 @@ const topNav = () => {
         <Link to="/">Billy Bobs Tech for Less</Link>
       </li>
       <li>
-        <Link to="/">Top Deals</Link>
+        <Link to="/topDeals">Top Deals</Link>
       </li>
       <li>
-        <Link to="/">computers</Link>
+        <Link to="/computers">Computers</Link>
       </li>
       <li>
-        <Link to="/">phones</Link>
+        <Link to="/phones">Phones</Link>
+      </li>
+      <li>
+        <Link to="/audio">Audio</Link>
+      </li>
+      <li>
+        <Link to="/security">Security</Link>
       </li>
 
     </div>
