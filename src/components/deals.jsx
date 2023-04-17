@@ -1,4 +1,3 @@
-import topNav from "./topnav";
 import React, { useState } from "react";
 
 function TopDeals() {
@@ -49,7 +48,7 @@ function TopDeals() {
       name: "Studio 3 headphones -> $299.99",
       description:
         "Save $140! With Pure Active Noise Cancelling technology, these headphone block unwanted sounds, along with the Apple W1 chip and 40 hour battery life, these headphones ensure long and great sounding audio quality.",
-      image: "images/s23ultra.jpeg",
+      image: "images/studio2.jpeg",
     },
   ];
 

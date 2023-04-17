@@ -1,4 +1,3 @@
-import topNav from "./topnav";
 import React, { useState } from "react";
 
 function Phones() {
@@ -21,21 +20,21 @@ function Phones() {
       name: "iPhone 14 Plus -> 1199.99",
       description:
         "A 6.7' Super Retina XDR display, 26 Hour battery life and the A15 Bionic chip, paired with Apple's dual-cam system all help make this phone impressive and user-friendly",
-      image: "iPhone14plus.jpeg",
+      image: "images/iPhone14plus.jpeg",
     },
     {
       brand: "Apple",
       name: "iPhone 14 Pro Max -> $1499.99",
       description:
         "With a 6.7' Super Retina XDR display with Always-On and ProMotion makes for a more responsive feel. 29 Hour battery life and a triple-camera setup makes this phone feel professional and productive.",
-      image: "images/mac mini.jpeg",
+      image: "images/14promax.jpeg",
     },
     {
       brand: "Samsung ",
       name: "S23 -> $1099.99",
       description:
         "With a 6.1' display, triple-camera layout and an 8 core CPU, the S23 is fast, user-friendly and takes great pictures!",
-      image: "images/acer laptop.jpeg",
+      image: "images/s23.jpeg",
     },
     {
       brand: "Samsung",

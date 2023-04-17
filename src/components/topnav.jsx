@@ -1,27 +1,31 @@
-const topNav = () => {
+import React from "react";
+import { Nav, NavLink, NavMenu } 
+    from "./NavbarElements";
+  
+const Navbar = () => {
   return (
-    <div className="topNav">
-      <li>
-        <Link to="/">Billy Bobs Tech for Less</Link>
-      </li>
-      <li>
-        <Link to="/TopDeals">Top Deals</Link>
-      </li>
-      <li>
-        <Link to="/Computers">Computers</Link>
-      </li>
-      <li>
-        <Link to="/Phones">Phones</Link>
-      </li>
-      <li>
-        <Link to="/Audio">Audio</Link>
-      </li>
-      <li>
-        <Link to="/Security">Security</Link>
-      </li>
-
-    </div>
+    <>
+      <Nav>
+        <NavMenu>
+          <NavLink to="/TopDeals" activeStyle>
+            Top Deals
+          </NavLink>
+          <NavLink to="/Computers" activeStyle>
+            Computers
+          </NavLink>
+          <NavLink to="/Phones" activeStyle>
+            Phones
+          </NavLink>
+          <NavLink to="/Security" activeStyle>
+            Security
+          </NavLink>
+          <NavLink to="/Audio" activeStyle>
+            Audio
+          </NavLink>
+        </NavMenu>
+      </Nav>
+    </>
   );
 };
-
-export default topNav
+  
+export default Navbar;

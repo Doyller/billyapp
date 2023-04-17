@@ -1,4 +1,3 @@
-import topNav from "./topnav";
 import React, { useState } from "react";
 
 function Computers() {
