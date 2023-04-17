@@ -8,6 +8,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 5px;
   z-index: 12;
+  border: 2px solid Black
 `;
   
 export const NavLink = styled(Link)`
@@ -27,7 +28,7 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
-white-space: nowrap; 
+  white-space: nowrap; 
   @media screen and (max-width: 768px) {
     display: none;
   }
