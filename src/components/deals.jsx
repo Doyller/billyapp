@@ -16,18 +16,18 @@ function TopDeals() {
       image: "images/iphone13.jpeg",
     },
     {
-      brand: "Microsoft",
-      name: "Surface Laptop 4 -> $899.95",
-      description:
-        "Save $400! With a 13.5' Touchscreen, 512GB SSD, 8GB of RAM and an Intel i5-1135G7, the surface makes being productive quick and easy.",
-      image: "images/surfacelaptop4.jpeg",
-    },
-    {
       brand: "Apple",
       name: "iPad 9th generation -> $399.99",
       description:
         "Save $50! Versatility at it's finest. With an A13 Bionic chip, a 10.2' screen and 10 hour battery life, the iPad makes personal or professional use simple.",
       image: "images/9thgenipad.jpeg",
+    },
+    {
+      brand: "Microsoft",
+      name: "Surface Laptop 4 -> $899.95",
+      description:
+        "Save $400! With a 13.5' Touchscreen, 512GB SSD, 8GB of RAM and an Intel i5-1135G7, the surface makes being productive quick and easy.",
+      image: "images/surfacelaptop4.jpeg",
     },
     {
       brand: "Asus",
