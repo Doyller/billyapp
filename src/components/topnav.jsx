@@ -7,6 +7,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavMenu>
+          <img src="images/billybobbuttonnobackground.png" height={40}></img>
           <NavLink to="/TopDeals" activeStyle>
             Top Deals
           </NavLink>
