@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Phones() {
+function Phones(props) {
   const [showProductInfo, setShowProductInfo] = useState(-1);
 
   const toggleProductInfo = (index) => {
@@ -74,7 +74,9 @@ function Phones() {
   ];
 
   const brands = [...new Set(products.map((product) => product.brand))];
-
+  const addToCart = (product) => {
+    props.addToCart(product);
+  };
   return (
     <div>
       <h1>Billy Bobs Cellphones</h1>
@@ -91,6 +93,7 @@ function Phones() {
                 <button onClick={() => toggleProductInfo(index)}>
                   More Info
                 </button>
+                <button onClick={() => addToCart(product)}>Add to Cart</button>
                 {showProductInfo === index && <p>{product.description}</p>}
               </div>
             ))}
