@@ -43,6 +43,9 @@ h1, p, h2, h3{
   align-items: center;
   height: 100%;
   text-align: center;
+  color: aliceblue;
+  background-color: black;
+  margin: 5px;
 }
 button{
   display: flex;
