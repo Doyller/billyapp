@@ -36,7 +36,10 @@
     transform: rotate(360deg);
   }
 }
-h1, p, h2, h3{
+h1,
+p,
+h2,
+h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,9 +48,10 @@ h1, p, h2, h3{
   text-align: center;
   color: aliceblue;
   background-color: black;
-  margin: 3px;
+  margin: auto;
+  max-width: 512px;
 }
-button{
+button {
   display: flex;
   padding: 10px 10px;
   background-color: black;
@@ -55,8 +59,9 @@ button{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: auto;
 }
-img{
+img {
   display: flex;
   padding: 5px 5px;
   background-color: black;
@@ -64,4 +69,37 @@ img{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: auto;
+}
+img.cart {
+  max-width: 256px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+div.cart {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1.carttitle {
+  align-self: flex-start;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  max-width: 512px;
+  margin: auto;
+}
+h2.itemname {
+  max-width: 256px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+div {
+  display: flexbox;
+  justify-content: center;
 }

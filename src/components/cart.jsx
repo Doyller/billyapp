@@ -8,13 +8,13 @@ function Cart(props) {
   };
 
   return (
-    <div>
-      <h1>Cart</h1>
+    <div className="cart">
+      <h1 className="carttitle">Cart</h1>
       <ul>
         {cartItems.map((item, index) => (
           <>
-            <h2>{item.name}</h2>
-            <img src={item.image} alt={item.name} />
+            <h2 className="itemname">{item.name}</h2>
+            <img src={item.image} alt={item.name} className="cart" />
           </>
         ))}
       </ul>
