@@ -3,7 +3,7 @@ import styled from "styled-components";
   
 export const Nav = styled.nav`
   background: blue;
-  height: 70px;
+  height: 45px;
   display: flex;
   justify-content: space-between;
   padding: 5px;
@@ -16,12 +16,12 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 5px;
-  height: 100%;
+  padding: 10px;
   cursor: pointer;
   &.active {
     color: white;
-  }
+  };
+  margin: 5px
 `;
   
 export const NavMenu = styled.div`
