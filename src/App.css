@@ -105,3 +105,10 @@ div {
   display: flexbox;
   justify-content: center;
 }
+input{
+  margin: 30px;
+  float: right;
+  background-color: black;
+  color: azure;
+
+}

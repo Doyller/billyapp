@@ -11,6 +11,7 @@ const Navbar = () => {
             alt="icon"
             height={40}
           ></img>
+          
           <NavLink to="/TopDeals" activeStyle>
             Top Deals
           </NavLink>
@@ -32,6 +33,7 @@ const Navbar = () => {
           <NavLink to="/About" activeStyle>
             About Us
           </NavLink>
+          <input class="topnav" type="text" placeholder="Search..." />
         </NavMenu>
       </Nav>
     </>
