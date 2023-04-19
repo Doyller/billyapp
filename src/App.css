@@ -50,6 +50,7 @@ h3 {
   background-color: black;
   margin: auto;
   max-width: 512px;
+  margin-top: 3px;
 }
 button {
   display: flex;
@@ -88,7 +89,7 @@ div.cart {
 }
 h1.carttitle {
   align-self: flex-start;
-  margin-top: 0;
+  margin-top: 3px;
   margin-bottom: 10px;
   margin-left: 20px;
   max-width: 512px;

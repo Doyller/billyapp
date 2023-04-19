@@ -7,6 +7,7 @@ import Phones from "./components/phones";
 import Audio from "./components/audio";
 import Security from "./components/security";
 import Cart from "./components/cart";
+import About from "./components/about";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/Audio" element={<Audio addToCart={addToCart} />} />
         <Route path="/Security" element={<Security addToCart={addToCart} />} />
         <Route path="/Cart" element={<Cart cartItems={cartItems} />} />
+        <Route path="/About" element={<About />} />
       </Routes>
     </Router>
   );
