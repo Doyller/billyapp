@@ -6,7 +6,7 @@ function Computers(props) {
   const toggleProductInfo = (index) => {
     setShowProductInfo(showProductInfo === index ? -1 : index);
   };
-
+/// this portion of code allows us to set up an array of products and information, it makes it easier to call this information later
   const products = [
     {
       brand: "Apple",
@@ -77,6 +77,8 @@ function Computers(props) {
   const addToCart = (product) => {
     props.addToCart(product);
   };
+  /// The code below allows us to toggle our buttons for more information and for adding products to the cart
+  /// It also allows us to lay out information easier as we callback our array and it will lay it out according to our code. It enables cleaner and more precise code 
   return (
     <div>
       <h1>Billy Bobs Computers</h1>

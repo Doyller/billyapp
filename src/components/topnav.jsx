@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
-
+/// The Navbar lets us link all the pages together with a simple navagation menu, allowing access to other pages, seamlessly 
 const Navbar = () => {
   return (
     <>
