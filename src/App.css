@@ -47,7 +47,13 @@ h3 {
   height: 100%;
   text-align: center;
   color: aliceblue;
-  background-color: black;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 56%,
+    rgba(118, 5, 185, 1) 66%,
+    rgba(0, 67, 255, 1) 95%
+  );
   margin: auto;
   max-width: 512px;
   margin-top: 3px;
@@ -104,4 +110,19 @@ h2.itemname {
 div {
   display: flexbox;
   justify-content: center;
+}
+img.chatimg {
+  background: transparent;
+  position: relative;
+}
+h3.chatimgtxt {
+  text-align: center;
+  background-color: transparent;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  color: white;
+  font-size: 24px;
 }
