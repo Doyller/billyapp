@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+/// A simple about page and function. Providing a little bit of information about billy bobs tech
 function About() {
   return (
     <><div>

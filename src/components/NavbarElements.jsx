@@ -1,6 +1,6 @@
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
-  
+/// The NavBar elements lets us style and export the components to our top nav page navigation.  
 export const Nav = styled.nav`
   background: blue;
   height: 45px;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
-
+/// The Navbar lets us link all the pages together with a simple navagation menu, allowing access to other pages, seamlessly 
 const Navbar = () => {
   return (
     <>
@@ -11,6 +11,7 @@ const Navbar = () => {
             alt="icon"
             height={40}
           ></img>
+          
           <NavLink to="/TopDeals" activeStyle>
             Top Deals
           </NavLink>
@@ -32,6 +33,7 @@ const Navbar = () => {
           <NavLink to="/About" activeStyle>
             About Us
           </NavLink>
+          <input class="topnav" type="text" placeholder="Search..." />
         </NavMenu>
       </Nav>
     </>

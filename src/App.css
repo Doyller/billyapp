@@ -111,18 +111,9 @@ div {
   display: flexbox;
   justify-content: center;
 }
-img.chatimg {
-  background: transparent;
-  position: relative;
-}
-h3.chatimgtxt {
-  text-align: center;
-  background-color: transparent;
-  background: transparent;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -20%);
-  color: white;
-  font-size: 24px;
+input {
+  margin: 30px;
+  float: right;
+  background-color: black;
+  color: azure;
 }

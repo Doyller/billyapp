@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+/// The cart function allows the user to add and item to the cart page
 function Cart(props) {
   const { cartItems, setCartItems } = props;
 

@@ -13,11 +13,13 @@ import { useState } from "react";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
-
+///The addToCart const allows us to add each product to our cart page individually
   const addToCart = (product) => {
     setCartItems([...cartItems, product]);
   };
 
+  /// The code below impliments the NavBar within the body and allows us to add items to the cart
+  /// It also ensures that each page is correctly routed to directly load upon {Onclick}
   return (
     <Router>
       <Navbar />
