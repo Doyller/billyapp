@@ -11,7 +11,6 @@ const Navbar = () => {
             alt="icon"
             height={40}
           ></img>
-          
           <NavLink to="/TopDeals" activeStyle>
             Top Deals
           </NavLink>
